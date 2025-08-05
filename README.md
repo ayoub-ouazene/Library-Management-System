@@ -31,9 +31,9 @@ A modern desktop **Library Management System** built with **C++**, the **Qt fram
 
 ## 📁 Project Structure
 
-📦 library-management-system/
-├── main.cpp
-├── mainwindow.ui
+📦 library-management-system/ 
+├── main.cpp 
+├── mainwindow.ui 
 ├── mainwindow.h / mainwindow.cpp
 ├── book.h / book.cpp
 ├── user.h / user.cpp
