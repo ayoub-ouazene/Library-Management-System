@@ -52,7 +52,7 @@ void MainWindowAdmin::searchUsers()
 
     // Case-insensitive search type comparison
     QString searchTypeLower = searchType.toLower();
-    if (searchTypeLower == "by first name") {
+    if (searchTypeLower == "by name") {
         users = dbuser->searchUserByFirstName(searchText);
     } else if (searchTypeLower == "by id") {
         users = dbuser->searchUserByID(searchText.toLongLong());
@@ -119,7 +119,6 @@ void MainWindowAdmin::searchBooks()
     } else if (searchTypeLower == "by year") {
         books = dbbook->searchBookByYear(searchText.toInt());
     } else {
-        QMessageBox::warning(this, "Search failed", "Invalid book search type.");
         return;
     }
 

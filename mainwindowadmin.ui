@@ -318,7 +318,7 @@ QToolButton:hover {
      </rect>
     </property>
     <property name="currentIndex">
-     <number>1</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="Home_page_2">
      <widget class="QWidget" name="layoutWidget_6">
