@@ -59,7 +59,7 @@ A modern desktop **Library Management System** built with **C++**, the **Qt fram
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/library-management-system.git
+   git clone https://github.com/ayoub-ouazene/library-management-system.git
    cd library-management-system
 Open the .pro file in Qt Creator
 
