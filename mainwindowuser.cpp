@@ -164,22 +164,21 @@ void MainWindowUser::searchBooks()
         return;
     }
 
-    QString searchtype = searchType.toLower();
-    if (searchtype == "by title") {
+    // Case-insensitive search type comparison
+    QString searchTypeLower = searchType.toLower();
+    if (searchTypeLower == "by title") {
         books = dbbook->searchBookByTitle(searchText);
-    } else if (searchtype == "by author") {
+    } else if (searchTypeLower == "by author") {
         books = dbbook->searchBookByAuthor(searchText);
-    } else if (searchtype == "by isbn") {
+    } else if (searchTypeLower == "by isbn") {
         books = dbbook->searchBookByISBN(searchText);
-    } else if (searchtype == "by type") {
+    } else if (searchTypeLower == "by type") {
         books = dbbook->searchBookByField(searchText);
-    } else if (searchtype == "by year") {
+    } else if (searchTypeLower == "by year") {
         books = dbbook->searchBookByYear(searchText.toInt());
-        qDebug()<<"fettet";
     } else {
         return;
     }
-    qDebug()<<"rah ysearchi ";
 
     ui->BooksTable->clearContents();
     ui->BooksTable->setRowCount(0);
@@ -193,7 +192,7 @@ void MainWindowUser::searchBooks()
     ui->comment_in_books_table->hide();
     ui->BooksTable->setColumnCount(9);
     ui->BooksTable->setRowCount(books.size());
-    QStringList headerLabels = {"Title", "Author", "Year", "ISBN", "Field", "Available", "Count","Borrow","Reserve"};
+    QStringList headerLabels = {"Title", "Author", "Year", "ISBN", "Field", "Available", "Count", "Borrow", "Reserve"};
     ui->BooksTable->setHorizontalHeaderLabels(headerLabels);
     for (int i = 0; i < books.size(); ++i)
     {
@@ -211,14 +210,11 @@ void MainWindowUser::searchBooks()
         });
         ui->BooksTable->setCellWidget(i, 7, BorrowButton);
 
-
         QPushButton* ReserveButton = new QPushButton("Reserve");
         connect(ReserveButton, &QPushButton::clicked, this, [=]() {
             handleReserve(i, books, user);
         });
         ui->BooksTable->setCellWidget(i, 8, ReserveButton);
-
-
     }
 
     ui->BooksTable->resizeColumnsToContents();

@@ -318,7 +318,7 @@ QToolButton:hover {
      </rect>
     </property>
     <property name="currentIndex">
-     <number>2</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="Home_page_2">
      <widget class="QWidget" name="layoutWidget_6">
@@ -855,7 +855,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
            </item>
            <item>
             <property name="text">
-             <string>By First Name</string>
+             <string>By Name</string>
             </property>
            </item>
            <item>

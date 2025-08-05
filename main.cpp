@@ -29,7 +29,12 @@ int main(int argc, char *argv[])
 
 
 
-    LoginWindow w;
+
+    // Create shared database manager instances
+    DatabaseManagerUser* dbuser = new DatabaseManagerUser();
+    DatabaseManagerBook* dbbook = new DatabaseManagerBook();
+
+    LoginWindow w(dbuser, dbbook);
     w.show();
 
     return a.exec();

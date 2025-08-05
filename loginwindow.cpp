@@ -22,7 +22,8 @@ LoginWindow::~LoginWindow()
 
 void LoginWindow::on_GoToSignUpButton_clicked()
 {
-    SignInWindow* window = new SignInWindow();
+    // Pass the same dbuser and dbbook pointers to SignInWindow
+    SignInWindow* window = new SignInWindow(dbuser, dbbook);
     this->hide();
     window->show();
 }

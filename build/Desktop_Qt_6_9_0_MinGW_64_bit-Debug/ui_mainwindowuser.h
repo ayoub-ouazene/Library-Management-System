@@ -529,7 +529,7 @@ public:
         Books_page->setObjectName("Books_page");
         layoutWidget_7 = new QWidget(Books_page);
         layoutWidget_7->setObjectName("layoutWidget_7");
-        layoutWidget_7->setGeometry(QRect(20, 12, 408, 61));
+        layoutWidget_7->setGeometry(QRect(20, 22, 408, 51));
         horizontalLayout_7 = new QHBoxLayout(layoutWidget_7);
         horizontalLayout_7->setObjectName("horizontalLayout_7");
         horizontalLayout_7->setContentsMargins(0, 0, 0, 0);
@@ -765,7 +765,7 @@ public:
 
         retranslateUi(MainWindowUser);
 
-        stackedWidget->setCurrentIndex(1);
+        stackedWidget->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindowUser);

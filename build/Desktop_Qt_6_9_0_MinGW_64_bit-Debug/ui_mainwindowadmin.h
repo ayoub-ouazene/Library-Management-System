@@ -936,7 +936,7 @@ public:
 
         retranslateUi(MainWindowAdmin);
 
-        stackedWidget->setCurrentIndex(0);
+        stackedWidget->setCurrentIndex(1);
 
 
         QMetaObject::connectSlotsByName(MainWindowAdmin);
@@ -979,7 +979,7 @@ public:
         ListOfPenalizedUsersButton->setText(QCoreApplication::translate("MainWindowAdmin", "List Of Penalized Users", nullptr));
         SearchUserEdit->setPlaceholderText(QCoreApplication::translate("MainWindowAdmin", "Search For User", nullptr));
         SearchUserTypeComboBox->setItemText(0, QCoreApplication::translate("MainWindowAdmin", "Search Type", nullptr));
-        SearchUserTypeComboBox->setItemText(1, QCoreApplication::translate("MainWindowAdmin", "By First Name", nullptr));
+        SearchUserTypeComboBox->setItemText(1, QCoreApplication::translate("MainWindowAdmin", "By Name", nullptr));
         SearchUserTypeComboBox->setItemText(2, QCoreApplication::translate("MainWindowAdmin", "By ID", nullptr));
         SearchUserTypeComboBox->setItemText(3, QCoreApplication::translate("MainWindowAdmin", "By Type", nullptr));
         SearchUserTypeComboBox->setItemText(4, QCoreApplication::translate("MainWindowAdmin", "By University", nullptr));

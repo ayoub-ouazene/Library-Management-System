@@ -75,7 +75,7 @@ void SignInWindow::on_SignInButton_clicked()
 
      User* user ;
       password= hashPassword(password);
-     DatabaseManagerUser database;
+
 
      if(type == "student")
      {
@@ -111,7 +111,7 @@ void SignInWindow::on_SignInButton_clicked()
 
 
          QString error;
-         if(database.addUser(user,error))
+         if(dbuser->addUser(user,error))
          {
              QMessageBox::information(this,"Succefull Registration","User added Succefully");
              this->hide();
@@ -141,7 +141,7 @@ void SignInWindow::on_SignInButton_clicked()
 void SignInWindow::on_GoToLogInButton_clicked()
 {
     this->hide();
-    LoginWindow* window = new LoginWindow();
+    LoginWindow* window = new LoginWindow(dbuser, dbbook);
     window->show();
 }
 
