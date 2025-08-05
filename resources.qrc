@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/img">
+        <file>img/book-1 1.png</file>
+        <file>img/element-2 2.png</file>
+        <file>img/Frame 245.png</file>
+        <file>img/icons8-book-100.png</file>
+        <file>img/icons8-search-50.png</file>
+        <file>img/icons8-search-100.png</file>
+        <file>img/icons8-timer-80.png</file>
+        <file>img/logout 3.png</file>
+        <file>img/people 3.png</file>
+        <file>img/people-in-tech-event-in-night----wsolving-real-wor.png</file>
+        <file>img/Property 1=Variant2.png</file>
+        <file>img/setting-2 1.png</file>
+        <file>img/SvgjsG2242.png</file>
+        <file>img/user 1.png</file>
+        <file>img/Vector (1).png</file>
+        <file>img/Vector.png</file>
+    </qresource>
+</RCC>

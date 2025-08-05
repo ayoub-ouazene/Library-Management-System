@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BookDialog</class>
+ <widget class="QDialog" name="BookDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="windowIcon">
+   <iconset theme="QIcon::ThemeIcon::ListAdd"/>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>291</width>
+     <height>221</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLineEdit" name="TitleEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;  
+color: rgb(62, 47, 28);            /* Add some internal padding */
+}
+
+QLabel {
+    color: #555555; /* A darker grey */
+}</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Title</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="AuthorEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Author</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="HasDigitalEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;  
+color: rgb(62, 47, 28);            /* Add some internal padding */
+}
+
+QLabel {
+    color: #555555; /* A darker grey */
+}</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Has Digital ?</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="FieldEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Field</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_5">
+      <item>
+       <widget class="QLineEdit" name="ISBNEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>ISBN</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_6">
+      <item>
+       <widget class="QLineEdit" name="LibraryCodeEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="placeholderText">
+         <string>Library Code</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="YearEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Year Of Publication</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_3">
+      <item>
+       <widget class="QLineEdit" name="BorrowingDaysEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Borrowing Days Limit</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="RenewalDaysEdit">
+        <property name="styleSheet">
+         <string notr="true">QLineEdit {
+    border: 1px solid #CFCFCF; /* A light grey border */
+    border-radius: 10px;       /* Adjust this value for desired roundness */
+    padding: 5px;              /* Add some internal padding */
+}
+</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignmentFlag::AlignLeading|Qt::AlignmentFlag::AlignLeft|Qt::AlignmentFlag::AlignVCenter</set>
+        </property>
+        <property name="placeholderText">
+         <string>Renewal Days Limit</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>270</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Submit</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_2">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>270</y>
+     <width>56</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>close</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>37</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="resources.qrc">:/img/img/SvgjsG2242.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

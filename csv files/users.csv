@@ -1,0 +1,29 @@
+FirstName|LastName|ID_CARD|RFID|UNIVERSITY|EMAIL|DateOfBirth|USER_TYPE|PASSWORD|CREATION_DATE|STATUS|IS_BLOCKED|IS_PENALIZED
+DHOHA|KHELLAF|232332000000|3787227|ENSIA|dhoha.khellaf@ensia.edu.dz|11/28/2005|student||09-06-2025|active|0|0
+NIHAD MERIEM|MIRAOUI|232332000000|3848013|ENSIA|nihad-meriem.miraoui@ensia.edu.dz|4/19/2006|student||09-06-2025|active|0|0
+AMANI|HAICHOUR|232335000000|3913324|ENSIA|amani.haichour@ensia.edu.dz|38936|student||09-06-2025|active|0|0
+RAOUNAK HADIL|KAOUA|232334000000|3857844|ENSIA|raounak-hadil.kaoua@ensia.edu.dz|2/22/2006|student||09-06-2025|active|0|0
+GHADA|BOUHABEL|232335000000|3889048|ENSIA|ghada.bouhabel@ensia.edu.dz|8/18/2005|student||09-06-2025|active|0|0
+MALAK|BOUGUEZZANA|232331000000|3907997|ENSIA|malak.bouguezzana@ensia.edu.dz|12/27/2005|student||09-06-2025|active|0|0
+ABDERRAOUF|LOUNIS|232333000000|3932341|ENSIA|abderraouf.lounis@ensia.edu.dz|1/25/2006|student||09-06-2025|active|0|0
+SOFIA|LALAM|232336000000|3811063|ENSIA|sofia.lalam@ensia.edu.dz|8/23/2005|student||09-06-2025|active|0|0
+SIRINE|ATOUM|232332000000|3900804|ENSIA|sirine.atoum@ensia.edu.dz|38698|student||09-06-2025|active|0|0
+ZINEB|BOUCHAIB|232335000000|2853511|ENSIA|zineb.bouchaib@ensia.edu.dz|38446|student||09-06-2025|active|0|0
+BESMALA|DOUADI|232336000000|3903332|ENSIA|besmala.douadi@ensia.edu.dz|38387|student||09-06-2025|active|0|0
+ACHREF BAHA EDDINE|BENNACER|232336000000|3857238|ENSIA|achref-baha-eddine.bennacer@ensia.edu.dz|10/28/2005|student||09-06-2025|active|0|0
+ISLAM|MAZA|232333000000|3821654|ENSIA|islam.maza@ensia.edu.dz|5/20/2005|student||09-06-2025|active|0|0
+NOUR MALEK|YAHIAOUI|232337000000||ENSIA|nour-malek.yahiaoui@ensia.edu.dz|11/25/2005|student||09-06-2025|active|0|0
+MOHAMED ISLAM|SAHLI|232336000000|3888217|ENSIA|mohamed-islam.sahli@ensia.edu.dz|4/26/2005|student||09-06-2025|active|0|0
+SARAH|MANSOURI|232338000000|3784054|ENSIA|sarah.mansouri@ensia.edu.dz|9/18/2005|student||09-06-2025|active|0|0
+YAHIA ABDERRAHMANE|MAHDI|232332000000|3840175|ENSIA|yahia-abderrahmane.mahdi@ensia.edu.dz|38785|student||09-06-2025|active|0|0
+INAS|SEKFALI|232333000000|3720145|ENSIA|inas.sekfali@ensia.edu.dz|10/20/2005|student||09-06-2025|active|0|0
+MOHANNED|MANAA|232334000000||ENSIA|mohanned.manaa@ensia.edu.dz|4/15/2005|student||09-06-2025|active|0|0
+MOHAMED ANES|BECHROURI|232332000000|3823812|ENSIA|mohamed-anes.bechrouri@ensia.edu.dz|2/21/2005|student||09-06-2025|active|0|0
+SONIA|LARAB|232331000000|1394029|ENSIA|sonia.larab@ensia.edu.dz|38454|student||09-06-2025|active|0|0
+NOUSSYBA OM SALAMA|CHOUIMET|232335000000|3914342|ENSIA|noussyba-om-salama.chouimet@ensia.edu.dz|8/22/2005|student||09-06-2025|active|0|0
+ayoub|ouazene|242431620402|1234567|ENSIA|ayoub.ouazene@ensia.edu.dz|07-01-2007|student|bfac7260ccb3871bde30f8f07c5782b3b22ce7dfae5b85746a90dc0060cb0d15|09-06-2025|active|0|0
+mehdi|ben|242431620444|1223345|ENSIA|mehdi.ben@ensia.edu.dz|20-06-2006|student|38318c00d873bcdbf1dd521e4c68bcf16945d7e63a97f0f9d92b1c9fcbb2338e|09-06-2025|active|0|0
+TAREK|MEDKOR|242411111111|1235678|ENSIA|tarek.mekdor@ensia.edu.dz|20/04/1999|administrator|8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918|09-06-2025|active|0|0
+rabeh|haddadi|242431624444|2121213|NHCS|rabehhaddadi123@gmail.com|07/09/2006|external|50a9a57d70d5a2b920a018f3e708efec8efaa53a85b7768d600915707847bbf7|09-06-2025|active|0|0
+TEST|TEST|242424242424|1111111|ENSIA|test@ensia.edu.dz|01-01-2001|librarian|a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3|10-06-2025|active|0|0
+RABAH|HADDADI|242431620611|1212121|NSCS|rabah.haddai123@gmail.com|02/09/2006|external|15e2b0d3c33891ebb0f1ef609ec419420c20e320ce94c65fbc8c3312448eb225|14-06-2025|active|0|0
